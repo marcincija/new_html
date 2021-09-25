@@ -17,17 +17,43 @@ h2 {
 
 #menu {
   background: rgb(228, 228, 228);
+
 }
 
 .menunav {
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: row;,
+  align-content: center;
+  align-items: center;
+  height:80px
 }
 
 .menunav li {
   padding: 10px 10px 10px 10px;
   font-size: 1.2rem;
+}
+
+.menunav li a:hover {
+  color: #000;
+  text-decoration: none;
+  transition: 500ms;
+  font-size: 1.4rem;
+}
+
+.menunav li a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+.menunav li a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+.menunav li a:link {
+  color: #000;
+  text-decoration: none;
 }
 
 .flexdiv {
@@ -36,8 +62,13 @@ h2 {
 }
 
 .fullwidth {
-  width: 100%;
-  border: 1px solid #000;
   height: 50vh;
   padding: 20px 20px 20px 20px;
+}
+
+.topbg {
+  background: url(/images/bgn.jpg);
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  background-size: cover;
 }
