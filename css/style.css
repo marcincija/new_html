@@ -67,7 +67,7 @@ h2 {
 }
 
 .topbg {
-  background: url(/images/bgn.jpg);
+  background: url(../images/bgn.jpg);
   background-position: 50% 50%;
   background-attachment: fixed;
   background-size: cover;
