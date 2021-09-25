@@ -16,6 +16,16 @@ body {
   animation-duration: 800ms;
 }
 
+h1 {
+  font-size: 3.2rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+}
+
 p {
   font-size: 2rem;
 }
@@ -99,7 +109,11 @@ p {
 }
 
 .fullwidth {
-  padding: 20px 20px 20px 20px;
+  padding: 40px 40px 40px 40px;
+}
+
+.half {
+  width: 50%;
 }
 
 .topbg {
@@ -123,5 +137,13 @@ p {
 @media only screen and (max-width: 600px) {
   .menunav li {
     font-size: 1.2rem;
+  }
+
+  .flexdiv {
+    display: block;
+  }
+
+  .half {
+    width: 100%;
   }
 }
