@@ -16,7 +16,7 @@ h2 {
 }
 
 #logotop{
-  width:20%;
+  width:15%;
 }
 
 #topnav{
@@ -27,10 +27,11 @@ h2 {
 .menunav {
   display: flex;
   justify-content: center;
-  flex-direction: row;,
+  flex-direction: row;
   align-content: center;
   align-items: center;
-  height:80px
+  height:80px;
+
 }
 
 .menunav li {
