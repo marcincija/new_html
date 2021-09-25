@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   background: #f5f5f5;
   opacity: 1;
@@ -12,12 +16,8 @@ body {
   animation-duration: 800ms;
 }
 
-h1 {
-  font-size: 32px;
-}
-
-h2 {
-  font-size: 24px;
+p {
+  font-size: 2rem;
 }
 
 @keyframes fadeInOpacity {
@@ -58,7 +58,7 @@ h2 {
 
 .menunav li {
   padding: 10px 10px 10px 10px;
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 
 .menunav li a:hover {
@@ -66,7 +66,7 @@ h2 {
   text-decoration: none;
   transition-timing-function: ease-in;
   transition: 500ms;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
 
 .menunav li a:active {
@@ -99,7 +99,6 @@ h2 {
 }
 
 .fullwidth {
-  height: 50vh;
   padding: 20px 20px 20px 20px;
 }
 
@@ -108,6 +107,7 @@ h2 {
   background-position: 50% 140%;
   background-attachment: fixed;
   background-size: cover;
+  height: 50vh;
 }
 
 .centerflexrow {
@@ -122,6 +122,6 @@ h2 {
 
 @media only screen and (max-width: 600px) {
   .menunav li {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
 }
