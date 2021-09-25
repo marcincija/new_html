@@ -15,12 +15,20 @@ h2 {
   font-size: 24px;
 }
 
-#logotop{
-  width:15%;
+#logotop {
+  display: flex;
+  width: 20%;
+  justify-content: flex-end;
 }
 
-#topnav{
-  width:100%;
+#infocontent {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+}
+
+#topnav {
+  width: 100%;
   background: rgb(228, 228, 228);
 }
 
@@ -30,8 +38,8 @@ h2 {
   flex-direction: row;
   align-content: center;
   align-items: center;
-  height:80px;
-
+  height: 80px;
+  width: 100%;
 }
 
 .menunav li {
@@ -42,6 +50,7 @@ h2 {
 .menunav li a:hover {
   color: #000;
   text-decoration: none;
+  transition-timing-function: ease-in;
   transition: 500ms;
   font-size: 1.4rem;
 }
@@ -49,22 +58,28 @@ h2 {
 .menunav li a:active {
   color: #000;
   text-decoration: none;
+  transition-timing-function: ease-in;
+  transition: 500ms;
 }
 
 .menunav li a:visited {
   color: #000;
   text-decoration: none;
+  transition-timing-function: ease-in;
+  transition: 500ms;
 }
 
 .menunav li a:link {
   color: #000;
   text-decoration: none;
+  transition-timing-function: ease-in;
+  transition: 500ms;
 }
 
 .flexdiv {
   display: flex;
   justify-content: center;
-  flex-direction: row;,
+  flex-direction: row;
   align-content: center;
   align-items: center;
 }
@@ -81,12 +96,18 @@ h2 {
   background-size: cover;
 }
 
-.rightrow{
-  width:20%;
+.centerflexrow {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+}
+
+.rightrow {
+  width: 20%;
 }
 
 @media only screen and (max-width: 600px) {
   .menunav li {
-   font-size: 0.8rem;
+    font-size: 0.8rem;
   }
 }
