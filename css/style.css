@@ -21,6 +21,7 @@ body {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url("../fonts/poppins-v15-latin-ext_latin-regular.eot"); /* IE9 Compat Modes */
   src: local(""),
     url("../fonts/poppins-v15-latin-ext_latin-regular.eot?#iefix")
@@ -41,6 +42,7 @@ body {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url("../fonts/open-sans-v26-latin-ext_latin-regular.eot"); /* IE9 Compat Modes */
   src: local(""),
     url("../fonts/open-sans-v26-latin-ext_latin-regular.eot?#iefix")
