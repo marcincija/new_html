@@ -161,11 +161,11 @@ p {
   justify-content: center;
   flex-direction: row;
   align-content: center;
-  align-items: center;
 }
 
 .fullwidth {
   padding: 40px 40px 40px 40px;
+  display: block;
 }
 
 .half {
