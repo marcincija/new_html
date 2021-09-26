@@ -100,7 +100,15 @@ p {
   transition: 500ms;
 }
 
-.flexdiv {
+.flexdivheader {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+
+.flexdivmain {
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -135,15 +143,23 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
+  #infocontact {
+    display: none;
+  }
+
+  .menunav {
+    display: none;
+  }
+
   .menunav li {
     font-size: 1.2rem;
   }
 
-  .flexdiv {
-    display: block;
-  }
-
   .half {
     width: 100%;
+  }
+
+  .flexdivmain {
+    display: block;
   }
 }
