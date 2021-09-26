@@ -177,6 +177,7 @@ img {
 .paddingh1 {
   padding: 20px 20px 20px 20px;
 }
+
 .half {
   width: 50%;
 }
@@ -236,8 +237,12 @@ img {
     margin-bottom: 0px;
   }
 
+  .paddingh1 {
+    text-align: center;
+  }
+
   .paddngp {
-    padding: 10px 10px 10px 10px;
+    padding: 15px 15px 15px 15px;
     display: block;
   }
 }
