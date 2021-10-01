@@ -59,28 +59,6 @@ body {
       format("svg"); /* Legacy iOS */
 }
 
-h1 {
-  font-family: "Poppins";
-  font-size: 6.5rem;
-  font-weight: bold;
-}
-
-h2 {
-  font-family: "Poppins";
-  font-size: 4.5rem;
-  font-weight: bold;
-}
-
-p {
-  font-family: "Open Sans";
-  font-size: 2rem;
-  line-height: 1.2;
-}
-
-img {
-  width: 100%;
-}
-
 @keyframes fadeInOpacity {
   0% {
     opacity: 0;
@@ -88,19 +66,6 @@ img {
   100% {
     opacity: 1;
   }
-}
-
-#logotop {
-  display: flex;
-  width: 20%;
-  justify-content: center;
-}
-
-#infocontent {
-  display: flex;
-  width: 20%;
-  justify-content: center;
-  font-family: "Poppins";
 }
 
 #topnav {
@@ -161,87 +126,8 @@ img {
   align-items: center;
 }
 
-.flexdivmain {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-content: center;
-}
-
-.paddngp {
-  padding: 40px 40px 40px 40px;
-  display: block;
-}
-
-.paddingh1 {
-  padding: 20px 20px 20px 20px;
-}
-
-.half {
-  width: 50%;
-}
-
-.topbg {
-  background: url(../images/banner.jpg);
-  background-position: 50% 50%;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 80vh;
-}
-
 .centerflexrow {
   display: flex;
   width: 60%;
   justify-content: center;
-}
-
-.rightrow {
-  width: 20%;
-}
-
-.flip {
-  flex-direction: row-reverse !important;
-}
-
-@media only screen and (max-width: 915px) {
-  #infocontact {
-    display: none;
-  }
-
-  .menunav {
-    display: none;
-  }
-
-  .menunav li {
-    font-size: 1.2rem;
-  }
-
-  .half {
-    width: 100%;
-  }
-
-  .flexdivmain {
-    display: block;
-  }
-
-  #logotop {
-    justify-content: center;
-  }
-
-  h1 {
-    margin-bottom: 0px;
-  }
-
-  h2 {
-    margin-bottom: 0px;
-  }
-
-  .paddingh1 {
-    text-align: center;
-  }
-
-  .paddngp {
-    padding: 15px 15px 15px 15px;
-    display: block;
-  }
 }
